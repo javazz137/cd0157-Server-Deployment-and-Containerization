@@ -40,7 +40,7 @@ Parameters:
 
   GitHubUser:
     Type: String
-    Default: SudKul
+    Default: javazz137
     Description: GitHub username or organization
     MinLength: 3
     MaxLength: 100
@@ -73,7 +73,8 @@ Metadata:
           - GitHubToken
           - GitSourceRepo
           - GitBranch
-      - Label:
+      - Label:aws ssm put-parameter --name JWT_SECRET --overwrite --value "myjwtsecret" --type SecureString
+
           default: CodeBuild
         Parameters:
           - CodeBuildDockerImage
