@@ -28,7 +28,6 @@ python --version
 You can download a specific release version from <a href="https://www.python.org/downloads/" target="_blank">here</a>.
 
 
-
 * Python package manager - PIP 19.x or higher. PIP is already installed in Python 3 >=3.4 downloaded from python.org . However, you can upgrade to a specific version, say 20.2.3, using the command:
 ```bash
 #  Mac/Linux/Windows Check the current version
